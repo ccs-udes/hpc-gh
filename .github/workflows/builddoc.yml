@@ -1,0 +1,36 @@
+name: Build Documentation CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Install prerequisites
+      run: pip install sphinx==9.1.0 furo==2025.12.19
+
+    - name: Build French version with Sphinx
+      run: sphinx-build ./fr/source _build/fr
+
+    - name: Build English version with Sphinx
+      run: sphinx-build ./en/source _build/en
+
+    - name: Add redirection
+      run: cp ./redirect.html _build/index.html
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: _build/
+        force_orphan: true
