@@ -15,6 +15,8 @@
    * - ``gh-blais``
 
        ``gh-preempt``
+
+       ``gh-preempt-low``
      - ``gh130[2-4]``
 
        (total : 3)
@@ -34,6 +36,8 @@
    * - ``gh-blais``
 
        ``gh-preempt``
+
+       ``gh-preempt-low``
      - ``gh1306``
      - 144
      - 1238G
@@ -51,6 +55,8 @@
    * - ``gh-blais``
 
        ``gh-preempt``
+
+       ``gh-preempt-low``
      - ``gh1307``
      - 72
      - 616G
@@ -68,6 +74,8 @@
    * - ``gh-aria``
 
        ``gh-preempt``
+
+       ``gh-preempt-low``
      - ``gh1305``
      - 72
      - 616G
@@ -82,3 +90,22 @@
      - 3,4T
      - 7
      - \S. Kourtis
+   * - ``gh-bio``
+
+       ``gh-preempt``
+
+       ``gh-preempt-low``
+     - ``gh1301``
+     - 64
+     - 542G
+
+       (0,53T)
+     - Neoverse V2 ARMv9
+
+       ``grace``
+     - 1 x Nvidia GH200 96G
+
+       ``nvidia_gh200_480gb``
+     - 35T
+     - 7
+     - \J.-F. Lucier
