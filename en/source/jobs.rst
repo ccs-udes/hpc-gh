@@ -50,9 +50,9 @@ your own to reserve it for other jobs, add e.g. ``--exclude=gh1399``.
 Bioinformatics service staff
 '''''''''''''''''''''''''''''
 
-Bioinformatics staff members also have access to all contributed nodes, but with
-a lower priority, via ``gh-preempt-low``. That partition behaves like
-``gh-preempt``, described in the previous section, with one important
+Staff members of the Bioinformatics service also have access to all contributed
+nodes, but with a lower priority, via ``gh-preempt-low``. That partition behaves
+like ``gh-preempt``, described in the previous section, with one important
 difference: jobs are automatically canceled if **any** IQ researcher needs the
 allocated resources for their own jobs.
 
