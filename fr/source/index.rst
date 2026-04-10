@@ -20,7 +20,7 @@ et des autres grappes à l’UdeS, particulièrement en ce qui a trait à
 l’environnement Linux et aux logiciels scientifiques.
 
 La Grappe GH est une ressource spécialisée pour les calculs accélérés par GPU,
-tels que l’apprentissage automatique et d’autres champs d’études de
+tels que l’apprentissage automatique et d’autres champs d’étude de
 l’intelligence artificielle.
 
 .. toctree::
