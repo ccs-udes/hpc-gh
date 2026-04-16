@@ -19,6 +19,11 @@ when :doc:`running jobs <jobs>`.
 Research data
 -------------
 
-The Institut quantique network filesystem is available at ``/net/nfs-iq``.
+The Institut quantique network filesystem is available at ``/net/nfs-iq``. That
+includes:
+
+- Research data: ``/net/nfs-iq/data``
+- Home directories on the IQ Cluster: ``/net/nfs-iq/home``
+- Home directories on the GH Cluster: ``/net/nfs-iq/home-gh``
 
 The Bioinformatics service network filesystem is available at ``/net/nfs-bio``.

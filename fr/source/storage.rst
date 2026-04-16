@@ -21,7 +21,11 @@ Données de recherche
 --------------------
 
 Le système de fichiers réseau de l’Institut quantique est disponible à
-``/net/nfs-iq``.
+``/net/nfs-iq``. Il contient :
+
+- Données de recherche : ``/net/nfs-iq/data``
+- Répertoires personnels sur la Grappe IQ : ``/net/nfs-iq/home``
+- Répertoires personnels sur la Grappe GH : ``/net/nfs-iq/home-gh``
 
 Le système de fichiers réseau du Service de bio-informatique est disponible à
 ``/net/nfs-bio``.
