@@ -24,7 +24,7 @@
      - 570G
 
        (0,56T)
-     - Neoverse V2 ARMv9
+     - 1 x Neoverse V2 ARMv9
 
        ``grace``
      - 1 x Nvidia GH200 96G
@@ -100,7 +100,7 @@
      - 542G
 
        (0,53T)
-     - Neoverse V2 ARMv9
+     - 1 x Neoverse V2 ARMv9
 
        ``grace``
      - 1 x Nvidia GH200 96G
