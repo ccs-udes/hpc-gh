@@ -15,7 +15,8 @@ C’est le bon emplacement pour vos fichiers de configuration, votre code et les
 logiciels que vous installez. Dû à sa capacité et à sa performance limitées, ce
 n’est pas le bon emplacement pour vos données de recherche et vous ne devriez
 pas l’utiliser pour lire et écrire de telles données lorsque vous :doc:`exécutez
-des tâches <jobs>`.
+des tâches <jobs>`. Il n’est pas possible de partager les fichiers dans votre
+répertoire personnel.
 
 Données de recherche
 --------------------

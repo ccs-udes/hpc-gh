@@ -14,7 +14,8 @@ Your home directory is accessible at ``$HOME``. For instance:
 This is the right location for configuration files, your code, and software that
 you install. Due to limited capacity and performance, it is not the right
 location for research data and you should not use it to read and write such data
-when :doc:`running jobs <jobs>`.
+when :doc:`running jobs <jobs>`. It is not possible to share files in your home
+directory.
 
 Research data
 -------------
