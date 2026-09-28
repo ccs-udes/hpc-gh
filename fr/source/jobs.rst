@@ -12,10 +12,20 @@ Lancer des tâches
 Login nodes
 -----------
 
-Utilisez le nœud de connexion (``iv01``) pour préparer vos tâches de calcul. Les
-nœuds de connexion des grappes n’ont pas de GPU ou la puissance de calcul pour
-exécuter des tâches. Toutes les tâches doivent être soumises à l’ordonnanceur
-avec les commandes appropriées : ``sbatch``, ``salloc``, ``srun``.
+Utilisez le nœud de connexion (``iv11``) pour préparer vos tâches à l’aide
+d’outils en ligne de commande.
+
+L’utilisation d’environnements de développement intégrés (IDE) qui se connectent
+au nœud de connexion est interdit. Cela inclut Visual Studio Code et PyCharm.
+Ces outils indexent constamment les fichiers auxquels ils ont accès, ce qui
+ralentit la lecture et l’écriture pour tous les chercheurs connectés. Pour des
+raisons similaires, les agents d’intelligence artificielle tels que Claude Code
+ne sont pas permis sur le nœud de connexion.
+
+Les nœuds de connexion des grappes n’ont pas de GPU ou la puissance de calcul
+pour exécuter des tâches. Toutes les tâches doivent être soumises à
+l’ordonnanceur avec les commandes appropriées : ``sbatch``, ``salloc``,
+``srun``.
 
 Utiliser les nœuds de votre groupe
 ----------------------------------
