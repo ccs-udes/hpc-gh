@@ -12,7 +12,7 @@ Running jobs
 Login nodes
 -----------
 
-Use the login node (``iv11``) to prepare your jobs using command line tools.
+Use the login node (``iv01``) to prepare your jobs using command line tools.
 
 The use of integrated development environments (IDEs) that connect to the login
 node is forbidden. This includes Visual Studio Code and PyCham. These tools

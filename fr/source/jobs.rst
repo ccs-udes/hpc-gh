@@ -12,7 +12,7 @@ Lancer des tâches
 Login nodes
 -----------
 
-Utilisez le nœud de connexion (``iv11``) pour préparer vos tâches à l’aide
+Utilisez le nœud de connexion (``iv01``) pour préparer vos tâches à l’aide
 d’outils en ligne de commande.
 
 L’utilisation d’environnements de développement intégrés (IDE) qui se connectent
